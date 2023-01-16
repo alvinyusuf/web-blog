@@ -1,0 +1,23 @@
+@extends('layouts.main')
+
+@section('container')
+    <h1>Halaman About</h1>
+    <h3>{{ $name }}</h3>
+    <p>{{ $email }}</p>
+    <img src="img/{{ $image }}" alt="{{ $name }}" width="200" class="img-tumbnail rounded-circle">
+@endsection
+{{-- <p>ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatem nesciunt adipisci fugiat atque, incidunt dolorem, quod dignissimos sed iusto, commodi earum eos amet nulla nam exercitationem rem deleniti distinctio possimus natus numquam aspernatur debitis. Dolores sunt repellendus ea, alias eius ad? A ipsam temporibus inventore dolorum officiis, eos earum animi.</p><p> Alias quam quas architecto. Praesentium, quam officia laudantium tenetur deserunt minus repellat sint molestiae modi nam, corrupti minima cum sunt! Culpa, doloremque ad, eligendi dignissimos expedita deserunt, quia laboriosam non consequuntur corporis soluta voluptas hic quis. Quam nulla odit hic accusamus quibusdam consectetur voluptatem similique magni corrupti tenetur? Laborum harum eius deleniti. Ipsa laborum, dolorem nostrum similique itaque repellat corrupti? Expedita provident eveniet quos maxime in veniam suscipit facilis</p><p> excepturi repellat culpa, perspiciatis quia perferendis, assumenda nemo libero quibusdam, cum praesentium ratione porro voluptates debitis sunt maiores nulla blanditiis! Ab adipisci, accusamus perferendis tempore nostrum ad ea iure modi repudiandae laborum quaerat, dolorem atque est? Odio nostrum dicta optio quod exercitationem minima placeat nesciunt cupiditate obcaecati. Ut aliquid ipsa odit. Sit vitae odit rerum odio, in deleniti impedit nisi ut modi illum maxime sint voluptatum repellendus laudantium, aliquid totam voluptatem libero quam sequi commodi sunt cumque porro eaque! Laboriosam.</p>
+Post::create([
+    'title' => 'Judul Ke Tiga',
+    'category_id' => 3,
+    'slug' => 'judul-ke-tiga',
+    'excerpt' => 'ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatem nesciunt adipisci',
+    'body' => '<p>ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatem nesciunt adipisci fugiat atque, incidunt dolorem, quod dignissimos sed iusto, commodi earum eos amet nulla nam exercitationem rem deleniti distinctio possimus natus numquam aspernatur debitis. Dolores sunt repellendus ea, alias eius ad? A ipsam temporibus inventore dolorum officiis, eos earum animi.</p><p> Alias quam quas architecto. Praesentium, quam officia laudantium tenetur deserunt minus repellat sint molestiae modi nam, corrupti minima cum sunt! Culpa, doloremque ad, eligendi dignissimos expedita deserunt, quia laboriosam non consequuntur corporis soluta voluptas hic quis. Quam nulla odit hic accusamus quibusdam consectetur voluptatem similique magni corrupti tenetur? Laborum harum eius deleniti. Ipsa laborum, dolorem nostrum similique itaque repellat corrupti? Expedita provident eveniet quos maxime in veniam suscipit facilis</p><p> excepturi repellat culpa, perspiciatis quia perferendis, assumenda nemo libero quibusdam, cum praesentium ratione porro voluptates debitis sunt maiores nulla blanditiis! Ab adipisci, accusamus perferendis tempore nostrum ad ea iure modi repudiandae laborum quaerat, dolorem atque est? Odio nostrum dicta optio quod exercitationem minima placeat nesciunt cupiditate obcaecati. Ut aliquid ipsa odit. Sit vitae odit rerum odio, in deleniti impedit nisi ut modi illum maxime sint voluptatum repellendus laudantium, aliquid totam voluptatem libero quam sequi commodi sunt cumque porro eaque! Laboriosam.</p>'
+])
+
+Category::create([
+    'name' => 'Personal',
+    'slug' => 'personal'
+])
+
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptate facilis reprehenderit enim aliquam ratione dolorum suscipit explicabo magni veniam veritatis impedit facere velit dolorem molestiae obcaecati quasi officiis quisquam, rem eaque excepturi laboriosam architecto! Nulla accusamus impedit quaerat exercitationem doloribus recusandae vitae quo, placeat explicabo facilis saepe repellat! Omnis sapiente qui excepturi impedit est magnam modi ex iusto suscipit molestiae natus deserunt, at beatae nostrum repellat blanditiis voluptate debitis distinctio! Itaque amet non suscipit voluptates est adipisci facilis consequatur perspiciatis veritatis asperiores repudiandae, excepturi aliquam iste ducimus impedit quae earum perferendis. Dignissimos adipisci eveniet tenetur optio quos odit! Sunt. --}}
